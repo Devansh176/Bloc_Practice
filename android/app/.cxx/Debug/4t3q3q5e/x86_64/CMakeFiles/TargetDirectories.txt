@@ -1,0 +1,2 @@
+D:/devanshProject/Bloc/android/app/.cxx/Debug/4t3q3q5e/x86_64/CMakeFiles/edit_cache.dir
+D:/devanshProject/Bloc/android/app/.cxx/Debug/4t3q3q5e/x86_64/CMakeFiles/rebuild_cache.dir
