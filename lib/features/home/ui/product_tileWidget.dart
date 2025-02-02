@@ -80,7 +80,7 @@ class ProductTileWidget extends StatelessWidget {
               Spacer(),
               IconButton(
                 onPressed: () {
-                  homeBloc.add(HomeProductsWishlistButtonClickEvent());
+                  homeBloc.add(HomeProductsWishlistButtonClickEvent(clickedProduct: productDataModel,),);
                 },
                 icon: Icon(
                   Icons.favorite_border,
@@ -92,10 +92,10 @@ class ProductTileWidget extends StatelessWidget {
               ),
               IconButton(
                 onPressed: () {
-                  homeBloc.add(HomeProductsCartButtonClickEvent());
+                  homeBloc.add(HomeProductsCartButtonClickEvent(clickedProduct: productDataModel,),);
                 },
                 icon: Icon(
-                  Icons.shopping_cart,
+                  Icons.shopping_cart_outlined,
                   size: fontSize * 1.6,
                   color: Colors.green[700],
                 ),

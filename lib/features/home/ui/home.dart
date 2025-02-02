@@ -51,6 +51,26 @@ class _HomeState extends State<Home> {
             ),
           );
         }
+        else if(state is HomeProductItemCartedActionState) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text("Item added to Cart"),
+              backgroundColor: Colors.green[700],
+              dismissDirection: DismissDirection.vertical,
+              duration: Duration(seconds: 2),
+            ),
+          );
+        }
+        else if(state is HomeProductItemWishListedActionState) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text("Item added to Wishlist"),
+              backgroundColor: Colors.green[700],
+              dismissDirection: DismissDirection.vertical,
+              duration: Duration(seconds: 2),
+            ),
+          );
+        }
       },
       builder: (context, state) {
         switch (state.runtimeType) {
@@ -92,7 +112,7 @@ class _HomeState extends State<Home> {
                       homeBloc.add(HomeCartButtonNavigateEvent());
                     },
                     icon: Icon(
-                      Icons.shopping_cart,
+                      Icons.shopping_cart_outlined,
                       size: iconSize * 0.8,
                       color: Colors.black,
                     ),
