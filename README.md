@@ -43,7 +43,7 @@ This project marks my first hands-on experience with **Flutter BLoC** and **stat
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/bloc-learning-app.git
+git clone https://github.com/Devansh176/Bloc_Practice.git
 
 # Navigate to the project folder
 cd bloc-learning-app
