@@ -60,7 +60,7 @@ flutter run
 ## 📚 Resources Used
 
 - [Flutter BLoC Documentation](https://bloclibrary.dev/#/)
-- [Akshit Madan BLoC YouTube Tutorials](https://www.youtube.com/c/ResoCoder)
+- [Akshit Madan BLoC YouTube Tutorials](https://shorturl.at/ET1S9)
 - [Flutter State Management Guide](https://docs.flutter.dev/data-and-backend/state-mgmt/intro)
 
 ---
